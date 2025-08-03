@@ -79,7 +79,7 @@
 }
 
 
-/* Scroll animation */
+/* scroll animation */
 .topbar .wrapper{
    opacity: 0;
    transition: all 0.5s;
@@ -90,12 +90,12 @@
    transform: translateY(0px);
 }
 .topbar .left i{
-   transition: all 0.3s;
+   transition: all 0.3;
    transform: translateX(-20px);
    opacity: 0;
 }
 .topbar .wrapper.active .left i{
-   transition: all 0.3s;
+   transition: all 0.3;
    transform: translateX(0px);
    opacity: 1;
 }
@@ -108,7 +108,6 @@
 .topbar .wrapper.active .left i:nth-child(4){
    transition-duration: 1.2s;
 }
-
 .topbar .center, .topbar .right{
    transform: translateX(-10px) translateY(-10px);
    transition: all 0.5s;
